@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+    border: 5px solid blue;
+    display: flex;
+}
+
+.parent
+{
+    height: 100%;
+    width: 100%;
+    border: 5px solid rgb(180, 114, 94);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: khaki;
+}
+
+.sub1
+{
+    height: 50px;
+    width: 100px;
+    border: 5px solid red;
+    font-size: 20px;
+    background-color: white;
+    text-align: center;
+}
+.sub2
+{
+    height: 50px;
+    width: 100px;
+    border: 5px solid red;
+    font-size: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.sub3
+{
+    height: 50px;
+    width: 100px;
+    border: 5px solid red;
+    font-size: 20px;
+    background-color: white;
+    text-align: center;
+}

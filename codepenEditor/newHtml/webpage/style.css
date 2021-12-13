@@ -1,0 +1,58 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body
+{
+    height: 100%;
+    width: 100%;
+}
+
+.header
+{
+    display: flex;
+    padding: 30px;
+   
+    /* display: inline; */
+}
+
+.header > .right
+{
+    margin-left: auto;
+    margin-right: 5%;
+    display: flex;
+}
+
+.header > .right > .menu
+{
+    margin-right: 20% ;
+}
+
+.content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer
+{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+}
+
+.content > .lang
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+    padding: 30px;
+}

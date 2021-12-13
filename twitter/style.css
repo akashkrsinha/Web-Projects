@@ -1,0 +1,64 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+.main{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+}
+
+.s1
+{
+   background-color: white;
+}
+.s2
+{
+    background-color: lightgrey;
+}
+.s3
+{
+   background-color: white;
+}
+
+.main > .s1 > .text
+{
+    width: fit-content;
+    margin-left: 30%;
+    height: 2px;
+    padding: 6%;
+}
+
+.tweetButton
+{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 15%;
+    height: 7%;
+    border-radius: 20px;
+    background-color:rgb(42, 176, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main > .s1 > .text:hover
+{
+   background-color: grey;
+   border-radius: 20px;
+}
+
+
+
+.main > .s1 > .ticon
+{
+    margin-left: 30%;
+    padding: 8%;
+}

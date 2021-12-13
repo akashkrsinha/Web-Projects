@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="left">My Jira Clone</div>
+            
+            <!-- <div class="right">+</div> -->
+            <button class="plus">+</button>
+        </header>
+        <main>
+            <div class="box">
+                <div class="header">
+                    <div class="left">Heading</div>
+                    <div class="right">
+                        <button class="icon" id="icon1">E</button>
+                        <button class="icon" id="icon2">-</button>
+                        <button class="icon" id="icon3">x</button>
+                    </div>
+                </div>
+                <div class="main">
+                    <textarea name="" id="" cols="3" class="box-textarea" ></textarea>
+                </div>
+                <div class="footer"></div>
+            </div>
+
+        </main>
+        <footer>By Akash Sinha</footer>
+    </div>
+    
+    <div class="dialog">
+        <div class="dialog-box">
+            <div class="button">x</div>
+            
+            <header>Add New Ticket</header>
+            <div class="dialog-content">
+                <main>
+                    <div >
+                        <input type="text" class="input" placeholder="Enter Your Text" id="title">
+                    </div>
+                    <div>
+                        <textarea cols="3" class="textarea" id="box-content"></textarea>
+                    </div>
+
+                    <button onclick="addTicket()"> Add Ticket</button>
+                </main>
+            </div>
+            
+        </div>
+    </div>
+    
+    </div>
+</body>
+
+<script src="js.js"></script>
+</html>
