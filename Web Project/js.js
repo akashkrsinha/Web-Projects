@@ -33,6 +33,7 @@ function addDelTicketLogic()
             alert("clicked")
             var box = e.target.closest(".box");
             console.log(box);
+            
 
             if(box.querySelector("div.main").style.display !== "none")
             {
